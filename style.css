@@ -1,0 +1,60 @@
+body{
+    background-color: #ff353a;
+}
+
+header{
+
+    padding: 10px;
+    background-color: brown;
+    margin-bottom: 30px;
+    font-family: Arial;
+}
+aside{
+    display: none;
+    padding: 10px;
+    background-color: lightcoral;
+    margin-bottom: 30px;
+    font-family: Arial;
+
+
+}
+main{
+    padding: 10px;
+    background-color: rebeccapurple;
+    margin-bottom: 30px;
+    font-family: Arial;
+
+
+}
+footer{
+    padding: 10px;
+    background-color: #831635;
+    margin-bottom: 30px;
+    font-family: Arial;
+}
+button{
+    background-color: lightcoral;
+    color: white;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+ .conteneur{
+     display: grid;
+     grid-template-columns:100%;
+     grid-column-gap: 10px;
+
+ }
+
+ @media screen and (min-width: 361px) {
+     aside{
+         display: block;
+     }
+     .conteneur{
+         grid-template-columns: 25% 75%;
+     }
+ }
+
+
